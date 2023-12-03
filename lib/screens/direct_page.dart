@@ -147,7 +147,13 @@ class _nameState extends State<DirectPage> {
                 res,
                 style: TextStyle(fontSize: 25),
                 onTap: () {
+                  _x_coords_of_a_controller.clear();
+                  _y_coords_of_a_controller.clear();
+                  _pos_of_d_controller.clear();
+
                   _degrees_controller.clear();
+                  _seconds_controller.clear();
+                  _minutes_controller.clear();
                   Clipboard.setData(ClipboardData(text: res)).then(
                     (_) {
                       ScaffoldMessenger.of(context).showSnackBar(
