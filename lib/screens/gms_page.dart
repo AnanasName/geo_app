@@ -33,6 +33,7 @@ class _nameState extends State<GMSPage> {
                         children: [
                           TextField(
                             controller: _degrees_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
@@ -45,6 +46,7 @@ class _nameState extends State<GMSPage> {
                           const SizedBox(height: 20),
                           TextField(
                             controller: _minutes_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
@@ -57,6 +59,7 @@ class _nameState extends State<GMSPage> {
                           const SizedBox(height: 20),
                           TextField(
                             controller: _seconds_contoller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },

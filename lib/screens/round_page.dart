@@ -45,6 +45,7 @@ class _nameState extends State<RoundPage> {
                           const SizedBox(height: 10),
                           TextField(
                             controller: _x_coords_of_a_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
@@ -57,6 +58,7 @@ class _nameState extends State<RoundPage> {
                           const SizedBox(height: 20),
                           TextField(
                             controller: _y_coords_of_a_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
@@ -74,6 +76,7 @@ class _nameState extends State<RoundPage> {
                           const SizedBox(height: 10),
                           TextField(
                             controller: _x_coords_of_b_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
@@ -86,6 +89,7 @@ class _nameState extends State<RoundPage> {
                           const SizedBox(height: 20),
                           TextField(
                             controller: _y_coords_of_b_controller,
+                            textInputAction: TextInputAction.next,
                             onSubmitted: (value) {
                               setState(() {});
                             },
